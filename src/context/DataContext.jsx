@@ -67,6 +67,9 @@ export function DataProvider({ children }) {
   const agregarLibro = (libro) =>
     setLibros((prev) => [...prev, { ...libro, id: Date.now() }]);
 
+  const editarLibro = (id, datos) =>
+    setLibros((prev) => prev.map((l) => (l.id === id ? { ...l, ...datos } : l)));
+
   const eliminarLibro = (id) =>
     setLibros((prev) => prev.filter((l) => l.id !== id));
 
@@ -108,6 +111,7 @@ export function DataProvider({ children }) {
     eliminarBibliotecario,
     libros,
     agregarLibro,
+    editarLibro,
     eliminarLibro,
     clientes,
     agregarCliente,

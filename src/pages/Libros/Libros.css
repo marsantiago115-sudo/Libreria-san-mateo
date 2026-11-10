@@ -1,4 +1,4 @@
-.buscador { width: 100%; margin-bottom: 1rem; }
+.buscador { width: 100%; margin: 1.5rem 0 1rem; }
 
 .lista {
   list-style: none;
@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
   background: white;
   padding: 0.8rem 1rem;
   border-radius: 8px;
@@ -22,3 +23,5 @@
   gap: 0.6rem;
   max-width: 340px;
 }
+
+.libros-acciones { display: flex; gap: 0.4rem; }
