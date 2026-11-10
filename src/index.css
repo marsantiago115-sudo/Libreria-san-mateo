@@ -1,0 +1,33 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+input, button {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  background: #2d6cdf;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover { background: #1f55b8; }
+
+.btn-peligro { background: #d9534f; }
+.btn-peligro:hover { background: #b83b37; }
+
+.pagina {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}

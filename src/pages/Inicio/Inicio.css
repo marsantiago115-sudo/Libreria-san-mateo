@@ -1,0 +1,24 @@
+.inicio { text-align: center; }
+
+.inicio h1 { font-size: 2.5rem; }
+
+.contador {
+  background: white;
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-link {
+  display: block;
+  width: fit-content;
+  margin: 1.5rem auto 0;
+  padding: 0.8rem 1.5rem;
+  background: #2d6cdf;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.btn-link:hover { background: #1f55b8; }

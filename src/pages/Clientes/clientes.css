@@ -1,0 +1,26 @@
+.form-cliente {
+  display: grid;
+  gap: 0.6rem;
+  max-width: 340px;
+  margin-bottom: 1.5rem;
+}
+
+.lista-clientes {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.lista-clientes li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background: white;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.clientes-acciones { display: flex; gap: 0.4rem; }
